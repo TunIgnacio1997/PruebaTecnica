@@ -47,6 +47,9 @@ class Login : AppCompatActivity() {
     }
 
     fun registerUser(){
+        if (!validateForm()) {
+            return
+        }
         val email = binding.editTextEmail.text.toString()
         val password = binding.editTextPassword.text.toString()
         auth.signInWithEmailAndPassword(email, password)
@@ -66,5 +69,18 @@ class Login : AppCompatActivity() {
                     ).show()
                 }
             }
+    }
+
+    fun validateForm() : Boolean{
+        var result = true
+        if (binding.editTextEmail.text.isNullOrEmpty()) {
+            binding.editTextEmail.setError("Debe agregar un correo")
+            result = false
+        }
+        if (binding.editTextEmail.text.isNullOrEmpty()) {
+            binding.editTextPassword.setError("Debe agregar una contraseña")
+            result = false
+        }
+        return  result
     }
 }
