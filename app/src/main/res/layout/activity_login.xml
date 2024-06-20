@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".presentation.ui.Login"
+    android:background="@color/secondaryColor"
+    android:padding="10dp"
+    android:theme="@style/Theme.MaterialComponents.Light">
+
+    <!-- Logo o imagen de la aplicación -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/movie_app"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/primaryTextColor"
+        android:layout_margin="20dp"/>
+
+    <!-- Campo de entrada de correo electrónico -->
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/correo_electronico"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="16dp"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:background="@drawable/outline_edt"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+
+    <!-- Campo de entrada de contraseña -->
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contraseña"
+        android:inputType="textPassword"
+        android:layout_marginBottom="24dp"
+        android:textColor="#000"
+        android:layout_margin="20dp"
+        android:textSize="18sp"
+        android:background="@drawable/outline_edt"
+        android:padding="10dp"/>
+
+    <!-- Botón de inicio de sesión -->
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/iniciar_sesion"
+        android:background="@drawable/rounded_button_background"
+        android:layout_margin="20dp"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

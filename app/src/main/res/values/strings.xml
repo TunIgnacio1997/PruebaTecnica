@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Prueba_Tecnica</string>
+    <string name="hola_mundo">Hola mundo</string>
+    <string name="correo_electronico">Correo electrónico</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="movie_app">MOVIE APP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

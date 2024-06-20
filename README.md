@@ -1,2 +1,8 @@
 # PruebaTecnica
-Prueba técnica Macropay
+Prueba técnica 
+
+# Usuario
+movieapp@gmail.com
+
+# Contraseña
+123456

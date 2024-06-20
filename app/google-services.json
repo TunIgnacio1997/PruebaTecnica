@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "162668068986",
+    "project_id": "movieapp-115f8",
+    "storage_bucket": "movieapp-115f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162668068986:android:9a6486418b8aa949663bc3",
+        "android_client_info": {
+          "package_name": "com.ignaciotun.prueba_tecnica"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRsjk0ZgL-tquuNnJycz3fxIfE2YFw9iE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
